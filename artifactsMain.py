@@ -4,7 +4,7 @@ import sys
 
 server = "https://api.artifactsmmo.com"
 token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6Imd3aXp6bGU2NTFAcHJvdG9uLm1lIiwicGFzc3dvcmRfY2hhbmdlZCI6bnVsbH0.xYCN6dSw-w8YytEbNZ9tBuuTCNfH8mz8uE9DJVlbX_E"
-character = "gwizzler"
+character = "charOne"
 headers = {
     "Content-Type": "application/json",
     "Accept": "application/json",
@@ -56,7 +56,7 @@ def craft(server, character, headers):
 
 if __name__ == "__main__":
     while True:
-        print("[0] Quit\n[1] Move\n[2] Fight\n[3] Gather\n[4] Heal\n")
+        print("[0] Quit\n[1] Move\n[2] Fight\n[3] Gather\n[4] Heal\n[5] Craft\n")
         actionToTake = input(">")
         print("\n\n")
 
